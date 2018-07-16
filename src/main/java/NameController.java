@@ -46,7 +46,7 @@ public class NameController {
         get("/four", (req, res) -> {
             Name name = new Name();
             ArrayList<String> fourNames = new ArrayList<>();
-            fourNames = name.getRandom3Names(); //returns arraylist
+            fourNames = name.getRandom4Names(); //returns arraylist
 
             HashMap<String, Object> model = new HashMap<>();
             model.put("names", fourNames);
